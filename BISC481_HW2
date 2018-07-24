@@ -1,0 +1,32 @@
+BISC481 HW2
+
+a)In vitro experiments
+
+#SELEX-seq
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4265583/
+SELEX-seq captures moderate affinity binding sites in addition to high affinity ones.
+Tries to fix specificity issue of SELEX, where some sequences are specific in vivo but bind to a diverse set of targets in vitro.
+
+#Protein Binding Microarray (PBM)
+Array has 60 bp DNA probes that contain all possible 9 or 10mers. 
+Can also be used to find binding sites of greater length.
+Provides high confidence estimates of binding preferences.
+
+b)In vivo experiments
+#ChIP-seq
+1. Cross link TF's to their binding sites in vivo
+2. Shear DNA via sonication
+3. Precipitate desired TF-DNA complexes via an antibody
+4. Unlink + purify DNA
+5. Sequence
+High sensitivity has a high cost.
+Binding sites indicated by a high density of tags.
+
+c) ChIP-seq cannot really tell strength of preference of TF's for a sequence, only whether it binds (binary).
+ChIP-seq also relies on the cell to express the TF, so if you do the experiment under the wrong conditions, there may 
+not be any bound sequences since the TF is not present. In contrast, in vitro experiments can tell affinity of a TF
+for a particular sequence. However, they may not accurately reflect in vivo specificity because of cofactors influencing
+in vivo specificity.
+
+
+
